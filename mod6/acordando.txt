@@ -1,0 +1,14 @@
+- se o despertador tocar
+1 - reinicio o despertador para tocar mais 10 minutos
+2 - o despertador toca novamente 
+3 - acordo e abro os olhos 
+4 - me levanto
+5 - lavo o rosto e escovo os dentes
+6 - vou preparar o café da manhã
+- se o despertador não tocar 
+1 - abro os olhos
+2 - olho as horas
+3 - vejo que estou atrasado
+4 - me levanto rapidamente
+5 - lavo o rosto e escovo os dentes 
+6 - começo as tarefas do dia
