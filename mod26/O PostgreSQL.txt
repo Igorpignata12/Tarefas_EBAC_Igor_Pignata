@@ -1,0 +1,7 @@
+O PostgreSQL é um banco de dados relacional open source amplamente utilizado para armazenar, organizar e gerenciar dados de aplicações. Ele utiliza uma estrutura baseada em tabelas, compostas por colunas e linhas, permitindo que as informações sejam armazenadas de forma estruturada e que existam relações entre diferentes conjuntos de dados.
+
+Seu funcionamento é baseado em SQL (Structured Query Language), linguagem utilizada para realizar operações como inserção, consulta, atualização e remoção de dados por meio de comandos como SELECT, INSERT, UPDATE e DELETE. Além disso, o PostgreSQL permite a criação de relacionamentos entre tabelas por meio de chaves primárias e estrangeiras, garantindo organização e integridade das informações.
+
+Um dos seus principais diferenciais é a confiabilidade. Ele segue o modelo ACID (Atomicidade, Consistência, Isolamento e Durabilidade), o que assegura que as transações sejam executadas de maneira segura e consistente, mesmo em casos de falhas. Também oferece alta performance, suporte a consultas complexas e grande escalabilidade.
+
+Por essas características, o PostgreSQL é amplamente utilizado em aplicações web, APIs e sistemas corporativos, sendo uma solução robusta e eficiente para persistência de dados no backend.

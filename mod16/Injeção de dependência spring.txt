@@ -1,0 +1,3 @@
+A injeção de dependência consiste na classe receber suas dependências prontas, de fora por alguém responsável por cria-las ao invés da classe criar suas próprias dependências
+o que deixa mais seguro e facilita testes, como disse antes alguém fica responsável por criar e gerenciar as dependências e nesse caso aqui é o springboot que cria, gerencia e 
+injeta automaticamente, facilitando muito na programação e deixando o desenvolvedor mais concentrado na regra de negócio.
