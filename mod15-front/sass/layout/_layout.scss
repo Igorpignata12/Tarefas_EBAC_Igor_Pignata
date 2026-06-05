@@ -1,0 +1,57 @@
+@use '../abstracts' as *;
+
+// ================================
+// Container
+// ================================
+
+.container {
+    max-width: $container-max-width;
+    width: 100%;
+    margin: 0 auto;
+
+    @include respond-to-tablet {
+        max-width: 80%;
+    }
+}
+
+// ================================
+// Header
+// ================================
+
+header {
+    background-color: $color-primary;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        @include flex(space-between, center);
+        padding: $spacing-sm 0;
+    }
+}
+
+// ================================
+// Menu de navegação
+// ================================
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: $spacing-md;
+
+        a {
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+}
+
+// ================================
+// Seção genérica
+// ================================
+
+section {
+    padding: $spacing-xxl 0;
+}

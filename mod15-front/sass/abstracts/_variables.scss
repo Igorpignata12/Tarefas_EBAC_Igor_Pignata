@@ -1,0 +1,45 @@
+// ================================
+// Cores
+// ================================
+$color-primary:       #182C61;
+$color-success:       #44bd32;
+$color-success-hover: #4cd137;
+$color-white:         #ffffff;
+$color-bg:            #f5f6fa;
+
+// ================================
+// Tipografia
+// ================================
+$font-family-base: Roboto, sans-serif;
+
+// ================================
+// Espaçamentos
+// ================================
+$spacing-xs:  8px;
+$spacing-sm:  16px;
+$spacing-md:  24px;
+$spacing-lg:  32px;
+$spacing-xl:  40px;
+$spacing-xxl: 56px;
+
+// ================================
+// Border Radius
+// ================================
+$radius-sm: 8px;
+$radius-md: 16px;
+
+// ================================
+// Grid / Layout
+// ================================
+$container-max-width:    1024px;
+$grid-columns-desktop:   3;
+$grid-columns-tablet:    2;
+$grid-col-gap-desktop:   1%;
+$grid-col-gap-tablet:    3%;
+$grid-row-gap:           4%;
+
+// ================================
+// Breakpoints
+// ================================
+$breakpoint-tablet: 1023px;
+$breakpoint-mobile: 767px;

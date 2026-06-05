@@ -1,0 +1,27 @@
+@use 'variables' as *;
+
+// ================================
+// Mixins de responsividade
+// ================================
+
+@mixin respond-to-tablet {
+    @media screen and (max-width: #{$breakpoint-tablet}) {
+        @content;
+    }
+}
+
+@mixin respond-to-mobile {
+    @media screen and (max-width: #{$breakpoint-mobile}) {
+        @content;
+    }
+}
+
+// ================================
+// Mixin utilitário de flex
+// ================================
+
+@mixin flex($justify: flex-start, $align: stretch) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

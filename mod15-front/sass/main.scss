@@ -1,0 +1,10 @@
+// ================================
+// Ponto de entrada principal
+// Importa todos os módulos SASS
+// na ordem correta de dependências
+// ================================
+
+@use 'abstracts';   // variáveis e mixins
+@use 'base';        // reset e estilos base
+@use 'layout';      // container, header, nav
+@use 'components';  // produtos
